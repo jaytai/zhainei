@@ -87,7 +87,7 @@ b,strong{
     font-weight:bolder
 }
 code,kbd,samp{
-    font-family:monospace, monospace;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
     font-size:inherit
 }
 small{
