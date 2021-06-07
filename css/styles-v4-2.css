@@ -66,7 +66,7 @@ hr{
     color:inherit
 }
 pre{
-    font-family:monospace, monospace;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
     font-size:inherit
 }
 address{
@@ -236,7 +236,9 @@ template{
     overflow-y:scroll
 }
 body{
-    font-family:YakuHanJP_Narrow,"Noto Sans JP",-apple-system,BlinkMacSystemFont,"Helvetica Neue",YuGothic,"ヒラギノ角ゴ ProN W3",Hiragino Kaku Gothic ProN,Arial,"メイリオ",Meiryo,sans-serif;
+    font-family: Georgia, "Nimbus Roman No9 L", "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, serif;
+	src: url(https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap);
+	src: url(https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap);
     background:#fff;
     color:#1b1b1b;
     width:100%;
