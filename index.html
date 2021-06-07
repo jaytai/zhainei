@@ -29,6 +29,9 @@
 				font-family: Georgia, "Nimbus Roman No9 L", "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, serif;
 				src: url(https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap)
 			}
+			footer{
+				background-color: rgb(206, 206, 206);
+			}
 			footer.l-Footer {
 		    margin-top: calc(0.125 * 100vw + 0);
  		    margin-bottom: 20px;
@@ -37,6 +40,94 @@
     		font-family: "Tw Cen W01 Medium";
     		font-weight: normal;
 			}
+			.l-Footer{
+				margin-top:calc(0.125 * 100vw + 0);margin-bottom:20px;padding-bottom:20px;font-size:20px;font-family:"Tw Cen W01 Medium";font-weight:normal
+			}
+			@media screen and (min-width: 100em){
+				.l-Footer{margin-top:200px}
+			}
+			@media screen and (max-width: 27.4375em){
+				.l-Footer{margin-top:0}
+			}
+			@media (max-width: 1100px){
+				.l-Footer{margin-bottom:0;padding-bottom:0}
+			}
+			.l-Footer a{
+				text-decoration:none
+			}
+			.l-Footer a:hover{
+				color:#BCBCBC
+			}
+			.l-Footer__inner{
+				width:100%;border-top:4px solid #000;padding-top:10px;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between
+			}
+			@media (max-width: 1100px){
+				.l-Footer__inner{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}
+			}
+			.l-Footer__social{
+				text-align:center
+			}
+			@media (max-width: 1100px){
+				.l-Footer__social{margin-bottom:5px;width:50%;text-align:right}
+			}
+			@media (max-width: 820px){
+				.l-Footer__social{text-align:left}
+			}
+			.l-Footer__social .c-Social__network{
+				margin:0 20px 0 0
+			}
+			@media (max-width: 820px){
+				.l-Footer__social .c-Social__network{display:block;margin:0 0 -5px}
+			}
+			.l-Footer__social .c-Social__network a{
+				transition:color 200ms linear
+			}
+			.l-Footer__social .c-Social__network:last-of-type{
+				margin:0
+			}
+			@media (max-width: 820px){
+				.l-Footer__site-by{margin-top:10px}
+			}
+			.l-Footer__site-by a{
+				transition:ease color 250ms
+			}
+			.l-Footer__site-by a:hover{
+				color:#4d4d4d
+			}
+			@media (max-width: 820px){
+				.l-Footer__site-by .desktop{display:none}
+			}
+			.l-Footer__site-by .mobile{
+				display:none
+			}
+			@media (max-width: 820px){
+				.l-Footer__site-by .mobile{display:block}
+			}
+			.l-Footer__legal{
+				display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:flex-end;-ms-flex-align:end;align-items:flex-end
+			}
+			@media (max-width: 1100px){
+				.l-Footer__legal{margin-bottom:5px;width:50%}
+			}
+			@media (max-width: 820px){
+				.l-Footer__legal{-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}
+			}
+			.l-Footer__legal span{
+				margin-right:20px
+			}
+			@media (max-width: 820px){
+				.l-Footer__legal span{margin-bottom:-5px}
+			}
+			.l-Footer__legal a{
+				display:block;margin-right:20px;transition:ease 250ms color
+			}
+			@media (max-width: 820px){
+				.l-Footer__legal a{margin-bottom:-5px}
+			}
+			.l-Footer__legal a:hover{
+				color:#a3a3a3
+			}
+			.l-Footer__legal a:last-of-type{margin:0}.l-Nav{position:fixed;width:490px;height:100%;top:0;z-index:9999;overflow:auto;right:0;-webkit-transform:translate3d(490px, 0px, 0);transform:translate3d(490px, 0px, 0);transition:-webkit-transform 225ms;transition:transform 225ms;background-color:#fff;-webkit-overflow-scrolling:touch}@media (max-width: 540px){.l-Nav{width:100%;-webkit-transform:translate3d(100%, 0px, 0);transform:translate3d(100%, 0px, 0)}}.l-Nav.is-open{-webkit-transform:translate3d(0px, 0px, 0);transform:translate3d(0px, 0px, 0);transition:-webkit-transform 400ms cubic-bezier(0.16, 0.68, 0.43, 0.99);transition:transform 400ms cubic-bezier(0.16, 0.68, 0.43, 0.99)}.l-Nav .menu{margin:0;padding:0;list-style:none;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;transition:linear 150ms color;font-family:'Domaine';font-weight:normal;font-size:35px;letter-spacing:-0.0108em;font-size:14px;line-height:1.07}.l-Nav .menu li{margin:0;margin-bottom:10px;-webkit-flex:0 1 50%;-ms-flex:0 1 50%;flex:0 1 50%}.l-Nav .menu a{text-decoration:none}.l-Nav .menu a:hover{color:#4D4D4D}@media screen and (min-width: 375px){.l-Nav .menu{font-size:20px}.l-Nav .menu li{margin-bottom:8px}}@media screen and (min-width: 415px) and (min-height: 600px) and (max-height: 1300px){.l-Nav .menu{font-size:3vh}.l-Nav .menu li{-webkit-flex:0 1 100%;-ms-flex:0 1 100%;flex:0 1 100%}}@media screen and (min-height: 1301px){.l-Nav .menu{font-size:35px}.l-Nav .menu li{-webkit-flex:0 1 100%;-ms-flex:0 1 100%;flex:0 1 100%}}
 		</style>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -199,13 +290,15 @@
 	</main>
 
 	<footer class="l-Footer">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row column">
 				<div class="row collapse">
 					<div class="columns">
 						<div class="l-Footer__inner">
 							<div class="l-Footer__legal">
-								<span style="font-family:arial;"> &copy; DAIJINGZHONG</span>
+								<p class="text-left" style="font-style: italic; font-size: 6px;">
+									<span style="font-family:arial;"> &copy; DAIJINGZHONG</span>
+								</p>
 							</div>
 						</div>
 					</div>
@@ -218,7 +311,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-4 col-md-offset-4">
-					<p class="text-left" style="font-style: italic; font-size: 6px;">
+					
 						
 					</p>
 				</div>
