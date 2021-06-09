@@ -23,11 +23,10 @@
 		<!-- 内部样式表 -->
 		<style type="text/css">
 			html {
-				position: relative;
-        		min-height: 100%;
+				height:100%;
    			}
 			body{
-				margin-bottom: 30px;
+				min-height:80%;margin:0;padding:0;position:relative;
 				background-color:white;
 				color:rgb(88, 88, 88);
 			}
@@ -35,13 +34,11 @@
 				background-color: white;
 			}
 			main{
+				padding-bottom:30px;
 				background-color: white;
 			}
-			.footer{
-				position:absolute;
-				bottom:0;
-				width:100%;
-				height:30px;
+			footer{
+				position:absolute;bottom:0;width:100%;height:30px;
 				background-color: white;
 			}
 			@font-face {
@@ -202,7 +199,7 @@
 			</div>
 		</div>
 	</main>
-	<footer class="footer">
+	<footer>
 		<div class="container-fluid">
 			<hr style="height: 2px; color: hsl(0, 0%, 0%);" />
 			<div class="row">
@@ -215,7 +212,7 @@
 			</div>
 		</div>
 	</footer>
-    <div class="l-overlay"></div>
+    <!-- <div class="l-overlay"></div> -->
     <script src="js/bundle-v4-2.js" defer></script><script>
       window.dataLayer.push({
         'event': 'trackPageView',
