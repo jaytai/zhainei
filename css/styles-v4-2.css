@@ -589,7 +589,7 @@ button.swiper-pagination-bullet{
     position:relative;z-index:3
 }
 .l-header__logoUniqlo{
-    position:absolute;top:0;left:12px;bottom:0;margin:auto;width:64px;display:flex;align-items:center
+    position:absolute;top:0;left:12px;bottom:0;margin:auto;width:52px;display:flex;align-items:center
 }
 .l-header__logoLifewear{
     display:flex;align-items:center;justify-content:center;height:52px
