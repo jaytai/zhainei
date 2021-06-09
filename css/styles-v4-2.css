@@ -595,7 +595,7 @@ button.swiper-pagination-bullet{
     display:flex;align-items:center;justify-content:center;height:52px
 }
 .l-header__logoLifewear img{
-    width:111px
+    width:auto
 }
 .l-header__bt{
     position:absolute;top:0;right:0;width:52px;height:52px;background:url(/img/format_list_bulleted_black_48dp.svg) center center no-repeat;background-size:39px auto;cursor:pointer;outline:none
