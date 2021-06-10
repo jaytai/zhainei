@@ -6,8 +6,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 28 28" width="100%" height="100%" id="图层_1" data-name="图层 1">
     <defs>
         <style>
-            .cls-1{font-size:23.82px;font-family:SourceHanSansHWSC-Regular-GBpc-EUC-H, Source Han Sans HW SC;}
-            .cls-2{font-size:36.86px;font-family:SourceHanSerifSC-Regular-GBpc-EUC-H, Source Han Serif SC;}
+            .cls-1{font-size:23.82px;font-family:SourceHanSansHWSC-Regular-GBpc-EUC-H, Source Han Sans HW SC, Noto Sans CJK SC;}
+            .cls-2{font-size:36.86px;font-family:SourceHanSerifSC-Regular-GBpc-EUC-H, Source Han Serif SC, Noto Serif CJK SC;}
         </style>
     </defs>
     <g id="图层_2" data-name="图层 2">
