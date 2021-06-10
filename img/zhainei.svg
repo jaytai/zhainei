@@ -1,1 +1,20 @@
-<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><defs><style>.cls-1{font-size:23.82px;font-family:SourceHanSansHWSC-Regular-GBpc-EUC-H, Source Han Sans HW SC;}.cls-2{font-size:36.86px;font-family:SourceHanSerifSC-Regular-GBpc-EUC-H, Source Han Serif SC;}</style></defs><text class="cls-1" transform="translate(-3 21.96) scale(0.95 1)">[ ]</text><g id="图层_2" data-name="图层 2"><text class="cls-2" transform="translate(0.07 13.95) rotate(45) scale(1.11 1)">z</text></g></svg>
+<?xml version="1.0" standalone="no"?>
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 28 28" width="100%" height="100%" id="图层_1" data-name="图层 1">
+    <defs>
+        <style>
+            .cls-1{font-size:23.82px;font-family:SourceHanSansHWSC-Regular-GBpc-EUC-H, Source Han Sans HW SC;}.cls-2{font-size:36.86px;font-family:SourceHanSerifSC-Regular-GBpc-EUC-H, Source Han Serif SC;}
+        </style>
+    </defs>
+    <text class="cls-1" transform="translate(-3 21.96) scale(0.95 1)" fill="red">
+        [ ]
+    </text>
+    <g id="图层_2" data-name="图层 2">
+    <text class="cls-2" transform="translate(0.07 13.95) rotate(45) scale(1.11 1)" fill="red">
+        z
+    </text>
+    </g>
+</svg>
